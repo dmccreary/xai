@@ -7,6 +7,12 @@ repo_url: 'https://github.com/dmccreary/GITHUB_REPO_NAME'
 
 nav:
   - Home: index.md
+  - What is Explainable AI?:
+    - Introduction: intro/index.md
+    - Clever Hans: intro/02-clever-hans.md
+  - Levels of Risk:
+    - Introduction: risk/index.md
+    - FDA Risk Model: risk/fda-risk-model.md
   - Types of Analysis: types-of-analysis.md
   - Contact: contact.md
  

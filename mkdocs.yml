@@ -16,9 +16,12 @@ nav:
     - FDA Risk Model: risk/fda-risk-model.md
   - Advanced:
     - Introduction: advanced/index.md
+    - SHAP: advanced/shap.md
     - SHAP Conda Setup: advanced/shap-conda-setup.md
     - SHAP Python Setup: advanced/shap-python.md
   - Types of Analysis: types-of-analysis.md
+  - License: license.md
+  - Glossary: glossary.md
   - Contact: contact.md
  
 # CoderDojo Microsite Standards from here down

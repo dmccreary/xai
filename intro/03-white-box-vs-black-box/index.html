@@ -12,28 +12,28 @@
         <meta name="author" content="Dan McCreary">
       
       
-        <link rel="canonical" href="https://dmccreary.github.io/GITHUB_REPO_NAME/intro/">
+        <link rel="canonical" href="https://dmccreary.github.io/GITHUB_REPO_NAME/intro/03-white-box-vs-black-box/">
       
       
-        <link rel="prev" href="..">
+        <link rel="prev" href="../02-clever-hans/">
       
       
-        <link rel="next" href="02-clever-hans/">
+        <link rel="next" href="../../risk/">
       
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.3.2">
     
     
       
-        <title>Introduction - SITE_NAME</title>
+        <title>White Box vs Black Box - SITE_NAME</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.30068a00.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.30068a00.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.85d0ee34.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.85d0ee34.min.css">
       
       
 
@@ -52,7 +52,7 @@
       
     
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -77,7 +77,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#what-is-explainable-ai" class="md-skip">
+        <a href="#comparing-white-box-and-black-box-machine-learning-models" class="md-skip">
           Skip to content
         </a>
       
@@ -93,7 +93,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="SITE_NAME" class="md-header__button md-logo" aria-label="SITE_NAME" data-md-component="logo">
+    <a href="../.." title="SITE_NAME" class="md-header__button md-logo" aria-label="SITE_NAME" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -113,7 +113,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Introduction
+              White Box vs Black Box
             
           </span>
         </div>
@@ -199,7 +199,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="SITE_NAME" class="md-nav__button md-logo" aria-label="SITE_NAME" data-md-component="logo">
+    <a href="../.." title="SITE_NAME" class="md-nav__button md-logo" aria-label="SITE_NAME" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -228,7 +228,7 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -272,7 +272,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="./" class="md-nav__link md-nav__link--active">
+            <a href="../" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -282,7 +282,7 @@
 
             </a>
             
-              <label class="md-nav__link md-nav__link--active" for="__nav_2">
+              <label class="md-nav__link " for="__nav_2">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
@@ -303,7 +303,7 @@
   
   
     <li class="md-nav__item">
-      <a href="02-clever-hans/" class="md-nav__link">
+      <a href="../02-clever-hans/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -321,9 +321,29 @@
                 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="03-white-box-vs-black-box/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    White Box vs Black Box
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -332,6 +352,68 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#white-box-machine-learning" class="md-nav__link">
+    White Box Machine Learning
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#black-box-machine-learning" class="md-nav__link">
+    Black Box Machine Learning
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-spectrum-of-explainability" class="md-nav__link">
+    The Spectrum of Explainability
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tools-for-enhancing-explainability-in-black-box-models" class="md-nav__link">
+    Tools for Enhancing Explainability in Black Box Models
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    Conclusion
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -368,7 +450,7 @@
         
   
   
-    <a href="../risk/" class="md-nav__link">
+    <a href="../../risk/" class="md-nav__link">
       
   
   <span class="md-ellipsis">
@@ -413,7 +495,7 @@
         
   
   
-    <a href="../advanced/" class="md-nav__link">
+    <a href="../../advanced/" class="md-nav__link">
       
   
   <span class="md-ellipsis">
@@ -438,7 +520,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../types-of-analysis/" class="md-nav__link">
+      <a href="../../types-of-analysis/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -457,7 +539,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../contact/" class="md-nav__link">
+      <a href="../../contact/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -497,43 +579,43 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#defining-explainable-ai" class="md-nav__link">
-    Defining Explainable AI
+  <a href="#introduction" class="md-nav__link">
+    Introduction
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#comparing-systems-simple-vs-deep-learning-systems" class="md-nav__link">
-    Comparing Systems: Simple vs. Deep-Learning Systems
+  <a href="#white-box-machine-learning" class="md-nav__link">
+    White Box Machine Learning
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#white-box-vs-black-box-models" class="md-nav__link">
-    White Box vs. Black Box Models
+  <a href="#black-box-machine-learning" class="md-nav__link">
+    Black Box Machine Learning
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#the-dangers-of-non-explainable-systems" class="md-nav__link">
-    The Dangers of Non-Explainable Systems
+  <a href="#the-spectrum-of-explainability" class="md-nav__link">
+    The Spectrum of Explainability
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#tools-to-classify-risk-in-ai-systems" class="md-nav__link">
-    Tools to Classify Risk in AI Systems
+  <a href="#tools-for-enhancing-explainability-in-black-box-models" class="md-nav__link">
+    Tools for Enhancing Explainability in Black Box Models
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#making-deep-neural-networks-explainable" class="md-nav__link">
-    Making Deep Neural Networks Explainable
+  <a href="#conclusion" class="md-nav__link">
+    Conclusion
   </a>
   
 </li>
@@ -556,21 +638,66 @@
   
 
 
-<h1 id="what-is-explainable-ai">What is Explainable AI?</h1>
-<p>Welcome to our course on Explainable AI (XAI), where we embark on a journey through the fascinating world of artificial intelligence (AI) that is not only powerful but also interpretable and transparent. This course is designed to unravel the complexities of AI, making it understandable and accountable to a wide range of stakeholders, from developers to end-users.</p>
-<h2 id="defining-explainable-ai">Defining Explainable AI</h2>
-<p>Explainable AI refers to methods and techniques in the field of artificial intelligence that make the outputs and operations of AI systems understandable to humans. Unlike traditional AI systems, where the decision-making process can be opaque, XAI aims to create a transparent relationship between the AI's functionality and its decision-making process.</p>
-<h2 id="comparing-systems-simple-vs-deep-learning-systems">Comparing Systems: Simple vs. Deep-Learning Systems</h2>
-<p>To grasp the essence of XAI, it's crucial to understand the contrast between simple, easy-to-explain systems and complex deep-learning systems. Simple AI systems, like decision trees, are inherently transparent with clear-cut rules and predictable outcomes. On the other hand, deep-learning systems, utilizing neural networks with multiple layers, are akin to a "black box." They can process an immense amount of data and find patterns beyond human capabilities, but their internal workings are often not easily interpretable.</p>
-<h2 id="white-box-vs-black-box-models">White Box vs. Black Box Models</h2>
-<p>This brings us to the concepts of "White Box" and "Black Box" models in AI. White Box models are those where the internal logic is fully transparent and understandable to humans. In contrast, Black Box models are those where the decision-making process is not visible or understandable, making it challenging to decipher how the AI arrived at a specific decision.</p>
-<h2 id="the-dangers-of-non-explainable-systems">The Dangers of Non-Explainable Systems</h2>
-<p>The inability to understand or predict the behavior of AI systems poses significant risks. It can lead to a lack of trust, incorrect or unethical decision-making, and difficulties in identifying and correcting errors. In domains like healthcare, finance, and law, where decisions have profound impacts, the opaqueness of Black Box models can be particularly perilous.</p>
-<h2 id="tools-to-classify-risk-in-ai-systems">Tools to Classify Risk in AI Systems</h2>
-<p>To mitigate these risks, it's vital to have tools that can classify the risk associated with AI decisions. These tools assess factors like the impact of decisions, the complexity of models, and the possibility of bias, providing a framework to evaluate the potential harm or unintended consequences of AI decisions.</p>
-<h2 id="making-deep-neural-networks-explainable">Making Deep Neural Networks Explainable</h2>
-<p>Lastly, we will explore the tools and techniques to make deep neural networks more explainable. Techniques like Layer-wise Relevance Propagation (LRP), SHAP (SHapley Additive exPlanations), and attention mechanisms can help illuminate the inner workings of complex models. We will delve into how these tools break down the AI's decision-making process, making it more transparent and understandable.</p>
-<p>Throughout this course, we will explore these concepts in detail, equipping you with the knowledge to create, analyze, and advocate for AI systems that are not just powerful, but also responsible and explainable. Welcome aboard this exciting exploration into the world of Explainable AI.</p>
+<h1 id="comparing-white-box-and-black-box-machine-learning-models">Comparing White Box and Black Box Machine Learning Models</h1>
+<h2 id="introduction">Introduction</h2>
+<p>In the ever-evolving world of machine learning (ML), understanding the nature and implications of different model architectures is crucial. This chapter delves into the comparison of white-box and black-box machine learning models, exploring their pros and cons, the tools used to build each, and the spectrum of explainability among various models.</p>
+<h2 id="white-box-machine-learning">White Box Machine Learning</h2>
+<p>White box models are characterized by their transparency and interpretability. They allow users to understand how input data is transformed into predictions or decisions.</p>
+<p><strong>Pros:</strong></p>
+<ul>
+<li><strong>Transparency</strong>: The decision-making process is clear, making it easier to trust and validate the model.</li>
+<li><strong>Debugging and Improvement</strong>: Errors can be traced and understood, allowing for targeted improvements.</li>
+<li><strong>Regulatory Compliance</strong>: In industries with strict regulatory requirements, white box models are often essential.</li>
+</ul>
+<p><strong>Cons:</strong></p>
+<ul>
+<li><strong>Simplicity and Limitation</strong>: These models may struggle with complex data patterns that more sophisticated black box models can capture.</li>
+<li><strong>Computationally Less Efficient</strong>: Some white box models, particularly those handling large datasets, can be less efficient.</li>
+</ul>
+<p><strong>Tools and Techniques:</strong></p>
+<ul>
+<li><strong>Linear Regression</strong>: Used for predicting a continuous outcome.</li>
+<li><strong>Decision Trees</strong>: Offer a clear decision-making path, often visualized as a tree.</li>
+<li><strong>Rule-Based Systems</strong>: Systems that apply a set of pre-defined rules to make decisions.</li>
+</ul>
+<h2 id="black-box-machine-learning">Black Box Machine Learning</h2>
+<p>Black box models are often more complex, where the internal decision-making logic is not transparent or is too complex to be easily understood.</p>
+<p><strong>Pros:</strong></p>
+<ul>
+<li><strong>Handling Complexity</strong>: They excel in capturing intricate patterns in large and complex datasets.</li>
+<li>**Higher Accuracy: Often provides higher predictive accuracy than simpler white box models.</li>
+<li><strong>Flexibility</strong>: Can be applied to a wide range of problems and datasets.</li>
+</ul>
+<p><strong>Cons:</strong></p>
+<ul>
+<li><strong>Lack of Transparency</strong>: The decision-making process is not easily interpretable, which can lead to trust issues.</li>
+<li><strong>Difficulty in Debugging</strong>: It's challenging to understand and correct the model's reasoning.</li>
+<li><strong>Potential for Bias</strong>: Without understanding the model's logic, hidden biases may influence outcomes.</li>
+</ul>
+<p><strong>Tools and Techniques:</strong></p>
+<ul>
+<li><strong>Neural Networks</strong>: Particularly deep learning models, which use layers of interconnected nodes.</li>
+<li><strong>Random Forests</strong>: An ensemble method that uses multiple decision trees.</li>
+<li><strong>Support Vector Machines (SVMs)</strong>: Effective for both classification and regression but can be opaque in their decision-making.</li>
+</ul>
+<h2 id="the-spectrum-of-explainability">The Spectrum of Explainability</h2>
+<p>It's important to note that explainability in machine learning models is not binary but exists on a spectrum. Some models offer a balance between transparency and complexity.</p>
+<ul>
+<li><strong>Ensemble Methods</strong>: Methods like Gradient Boosting can offer more interpretability than deep learning models but are less transparent than simple decision trees.</li>
+<li><strong>Regularization Techniques in Linear Models</strong>: These can make models more interpretable by reducing overfitting and simplifying the model.</li>
+</ul>
+<h2 id="tools-for-enhancing-explainability-in-black-box-models">Tools for Enhancing Explainability in Black Box Models</h2>
+<ul>
+<li><strong>SHapley Additive exPlanations (SHAP)</strong>: Uses game theory to explain the output of any machine learning model.</li>
+<li>
+<p><strong>Local Interpretable Model-agnostic Explanations (LIME)</strong>: Explains predictions of any classifier in an interpretable manner.</p>
+</li>
+<li>
+<p><strong>Feature Importance Analysis</strong>: Helps in understanding the significance of different features in the model's decisions.</p>
+</li>
+</ul>
+<h2 id="conclusion">Conclusion</h2>
+<p>The choice between white box and black box models involves a trade-off between interpretability and predictive power. White box models, with their transparency, are indispensable in situations requiring clarity and accountability. Black box models, despite their opacity, are invaluable for tackling complex, high-dimensional problems. The field of machine learning continues to evolve, striving to bridge the gap between these two paradigms, aiming for models that are both powerful and interpretable. Understanding the strengths, limitations, and appropriate applications of each model type is essential for practitioners in the field of machine learning and AI.</p>
 
 
 
@@ -598,7 +725,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href=".." class="md-footer__link md-footer__link--prev" aria-label="Previous: Home" rel="prev">
+          <a href="../02-clever-hans/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Clever Hans" rel="prev">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -608,20 +735,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Home
+                Clever Hans
               </div>
             </div>
           </a>
         
         
           
-          <a href="02-clever-hans/" class="md-footer__link md-footer__link--next" aria-label="Next: Clever Hans" rel="next">
+          <a href="../../risk/" class="md-footer__link md-footer__link--next" aria-label="Next: Introduction" rel="next">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Clever Hans
+                Introduction
               </div>
             </div>
             <div class="md-footer__button md-icon">
@@ -654,10 +781,10 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["content.code.copy", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "toc.follow", "navigation.top", "navigation.footer"], "search": "../assets/javascripts/workers/search.dfff1995.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "toc.follow", "navigation.top", "navigation.footer"], "search": "../../assets/javascripts/workers/search.dfff1995.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.dff1b7c8.min.js"></script>
+      <script src="../../assets/javascripts/bundle.dff1b7c8.min.js"></script>
       
     
   </body>

@@ -10,9 +10,14 @@ nav:
   - What is Explainable AI?:
     - Introduction: intro/index.md
     - Clever Hans: intro/02-clever-hans.md
+    - White Box vs Black Box: intro/03-white-box-vs-black-box.md
   - Levels of Risk:
     - Introduction: risk/index.md
     - FDA Risk Model: risk/fda-risk-model.md
+  - Advanced:
+    - Introduction: advanced/index.md
+    - SHAP Conda Setup: advanced/shap-conda-setup.md
+    - SHAP Python Setup: advanced/shap-python.md
   - Types of Analysis: types-of-analysis.md
   - Contact: contact.md
  

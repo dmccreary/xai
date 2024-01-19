@@ -25,4 +25,24 @@
          <lastmod>2024-01-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
+    <url>
+         <loc>https://dmccreary.github.io/GITHUB_REPO_NAME/intro/</loc>
+         <lastmod>2024-01-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/GITHUB_REPO_NAME/intro/02-clever-hans/</loc>
+         <lastmod>2024-01-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/GITHUB_REPO_NAME/risk/</loc>
+         <lastmod>2024-01-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/GITHUB_REPO_NAME/risk/fda-risk-model/</loc>
+         <lastmod>2024-01-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
 </urlset>

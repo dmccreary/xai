@@ -20,6 +20,7 @@ nav:
     - SHAP: advanced/shap.md
     - SHAP Conda Setup: advanced/shap-conda-setup.md
     - SHAP Python Setup: advanced/shap-python.md
+    - XGBoost: advanced/xgboost.md
   - Types of Analysis: types-of-analysis.md
   - Regulatory: regulatory/index.md
   - References: references.md

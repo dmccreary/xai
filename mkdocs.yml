@@ -1,9 +1,9 @@
-site_name: SITE_NAME
-site_description: 'DESCRIPTION All content licensed Creative Commons ShareAlike Attribution Noncommercial'
+site_name: Explainable AI
+site_description: 'Explainable AI Course taught by Dan McCreary. All content licensed Creative Commons ShareAlike Attribution Noncommercial'
 site_author: 'Dan McCreary'
 repo_name: 'GitHub Repo'
-site_url: 'https://dmccreary.github.io/GITHUB_REPO_NAME'
-repo_url: 'https://github.com/dmccreary/GITHUB_REPO_NAME'
+site_url: 'https://dmccreary.github.io/xai'
+repo_url: 'https://github.com/dmccreary/xai'
 
 nav:
   - Home: index.md
@@ -21,8 +21,11 @@ nav:
     - SHAP Conda Setup: advanced/shap-conda-setup.md
     - SHAP Python Setup: advanced/shap-python.md
   - Types of Analysis: types-of-analysis.md
+  - Regulatory: regulatory/index.md
+  - References: references.md
   - License: license.md
   - Glossary: glossary.md
+  - How We Built This Site: how-we-built-this-site.md
   - Contact: contact.md
  
 # CoderDojo Microsite Standards from here down

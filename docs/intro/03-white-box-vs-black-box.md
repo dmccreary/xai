@@ -1,6 +1,6 @@
 # Comparing White Box and Black Box Machine Learning Models
 
-![](./03-white-box-vs-black-box.md)
+![](../img/03-white-box-vs-black-box.md)
 
 ## Introduction
 

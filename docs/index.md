@@ -1,6 +1,6 @@
 # Welcome to the Explainable AI Course
 
-![](./03-white-box-vs-black-box.md){ width="400" }
+![](./img/03-white-box-vs-black-box.md){ width="400" }
 
 In this course, we will cover the key concepts around building analytical systems that focus on explainability.  This is an important goal for many modern AI systems today.  Studies show that people are reluctant to use AI systems that they don't trust, and explainability is a key to building that trust.
 

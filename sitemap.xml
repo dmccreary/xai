@@ -56,6 +56,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://dmccreary.github.io/xai/advanced/xgboost/</loc>
+         <lastmod>2024-01-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://dmccreary.github.io/xai/intro/</loc>
          <lastmod>2024-01-20</lastmod>
          <changefreq>daily</changefreq>

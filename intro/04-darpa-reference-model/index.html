@@ -12,13 +12,13 @@
         <meta name="author" content="Dan McCreary">
       
       
-        <link rel="canonical" href="https://dmccreary.github.io/GITHUB_REPO_NAME/advanced/shap/">
+        <link rel="canonical" href="https://dmccreary.github.io/GITHUB_REPO_NAME/intro/04-darpa-reference-model/">
       
       
-        <link rel="prev" href="../">
+        <link rel="prev" href="../03-white-box-vs-black-box/">
       
       
-        <link rel="next" href="../shap-conda-setup/">
+        <link rel="next" href="../../risk/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -26,7 +26,7 @@
     
     
       
-        <title>SHAP - SITE_NAME</title>
+        <title>The DARPA XAI Model - SITE_NAME</title>
       
     
     
@@ -77,7 +77,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#shap-shapley-additive-explanations" class="md-skip">
+        <a href="#darpa-xai-model" class="md-skip">
           Skip to content
         </a>
       
@@ -113,7 +113,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              SHAP
+              The DARPA XAI Model
             
           </span>
         </div>
@@ -245,6 +245,8 @@
       
   
   
+    
+  
   
     
     
@@ -261,28 +263,158 @@
       
     
     
-      
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
-  
-  
-    <a href="../../intro/" class="md-nav__link">
-      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
   
   <span class="md-ellipsis">
     What is Explainable AI?
   </span>
   
 
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
+            </a>
+            
+              <label class="md-nav__link " for="__nav_2">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            What is Explainable AI?
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02-clever-hans/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Clever Hans
+  </span>
   
 
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03-white-box-vs-black-box/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    White Box vs Black Box
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    The DARPA XAI Model
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    The DARPA XAI Model
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#using-a-knowledge-graph-as-the-explainable-model" class="md-nav__link">
+    Using a Knowledge Graph as the Explainable Model
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#queryability" class="md-nav__link">
+    Queryability
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
       
     </li>
   
@@ -335,8 +467,6 @@
       
   
   
-    
-  
   
     
     
@@ -353,172 +483,28 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
       
         
-        
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
-        
-          
-          
-          <div class="md-nav__link md-nav__container">
-            <a href="../" class="md-nav__link ">
-              
+  
+  
+    <a href="../../advanced/" class="md-nav__link">
+      
   
   <span class="md-ellipsis">
     Advanced
   </span>
   
 
-            </a>
-            
-              <label class="md-nav__link " for="__nav_4">
-                <span class="md-nav__icon md-icon"></span>
-              </label>
-            
-          </div>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_4">
-            <span class="md-nav__icon md-icon"></span>
-            Advanced
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-            
-              
-                
-  
-  
-    
-  
-  
-    <li class="md-nav__item md-nav__item--active">
       
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+        <span class="md-nav__icon md-icon"></span>
       
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    SHAP
-  </span>
+    </a>
   
 
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        
-  
-  <span class="md-ellipsis">
-    SHAP
-  </span>
-  
-
-      </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#shap-overview" class="md-nav__link">
-    SHAP Overview**
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#how-shap-works" class="md-nav__link">
-    How SHAP Works
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#using-shap-in-practice" class="md-nav__link">
-    Using SHAP in Practice
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#conclusion" class="md-nav__link">
-    Conclusion
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../shap-conda-setup/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    SHAP Conda Setup
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../shap-python/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    SHAP Python Setup
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
       
     </li>
   
@@ -627,29 +613,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#shap-overview" class="md-nav__link">
-    SHAP Overview**
+  <a href="#using-a-knowledge-graph-as-the-explainable-model" class="md-nav__link">
+    Using a Knowledge Graph as the Explainable Model
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#how-shap-works" class="md-nav__link">
-    How SHAP Works
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#using-shap-in-practice" class="md-nav__link">
-    Using SHAP in Practice
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#conclusion" class="md-nav__link">
-    Conclusion
+  <a href="#queryability" class="md-nav__link">
+    Queryability
   </a>
   
 </li>
@@ -672,41 +644,43 @@
   
 
 
-<h1 id="shap-shapley-additive-explanations">SHAP (SHapley Additive exPlanations)</h1>
-<h2 id="shap-overview">SHAP Overview**</h2>
-<p>SHAP is a powerful tool in the field of machine learning that helps in explaining the output of machine learning models. It is based on the concept of Shapley values, a method from cooperative game theory. SHAP provides insights into how each feature in a model contributes to the prediction for each individual data point, thereby offering a way to interpret complex machine learning models, especially those considered as "black box" models.</p>
-<h2 id="how-shap-works">How SHAP Works</h2>
+<h1 id="darpa-xai-model">DARPA XAI Model</h1>
+<p><img alt="" src="../../img/darpa-reference-model.png" /></p>
+<p>The image above describes the DARPA reference model for explainable AI (XAI). We will look at this image and describe how the DARPA XAI model is different from the standard machine-learning process. We will then speculate if the box labeled "Explainable Model" could be created using a knowledge graph.</p>
+<p>The image depicts two different approaches to machine learning: the traditional approach and the DARPA's Explainable AI (XAI) approach.</p>
+<p>In the traditional machine learning approach:</p>
 <ol>
-<li>
-<p><strong>Shapley Values Concept</strong>: SHAP leverages Shapley values, originally developed for fair profit distribution in coalitions. In the context of machine learning, it considers each feature value of a data instance as a "player" in a game where the "payout" is the prediction made by the model.</p>
-</li>
-<li>
-<p><strong>Feature Contribution Calculation</strong>: SHAP calculates the contribution of each feature to the difference between the actual prediction and the average prediction. The idea is to simulate all possible combinations of feature values and observe how the prediction changes when a feature is added to these combinations.</p>
-</li>
-<li>
-<p><strong>Model Agnosticism</strong>: One of the strengths of SHAP is its model-agnostic nature. It can be applied to a wide range of machine learning models, from simple linear regression to complex deep learning models.</p>
-</li>
-<li>
-<p><strong>Local Interpretation</strong>: SHAP focuses on local interpretability, providing explanations for individual predictions. This means it can explain why a model made a specific prediction for a specific instance, rather than offering a global view of the model's overall behavior.</p>
+<li><strong>Training Data</strong> is used in the <strong>Machine Learning Process</strong> to create a <strong>Learned Function</strong>.</li>
+<li>This function is then used to make a <strong>Decision or Recommendation</strong>.</li>
+<li>The <strong>User</strong> then interacts with this decision or recommendation, often posing questions like:<ul>
+<li>Why did you do that?</li>
+<li>Why not something else?</li>
+<li>When do you succeed?</li>
+<li>When do you fail?</li>
+<li>When can I trust you?</li>
+<li>How do I correct an error?</li>
+</ul>
 </li>
 </ol>
-<h2 id="using-shap-in-practice">Using SHAP in Practice</h2>
+<p>This traditional model often acts as a black box, providing little insight into how the decisions are made, which can be problematic for users who need to understand the reasoning behind the AI's outputs.</p>
+<p>In contrast, the DARPA XAI model includes additional components for explainability:</p>
 <ol>
-<li>
-<p><strong>Model Debugging and Improvement</strong>: By understanding the impact of each feature on the model's predictions, practitioners can debug and improve the model's performance, particularly in identifying and fixing biases.</p>
-</li>
-<li>
-<p><strong>Feature Importance Analysis</strong>: SHAP helps in understanding which features are most important for a model's decision-making process. This is crucial in many domains like finance and healthcare, where explaining the rationale behind decisions is as important as the decisions themselves.</p>
-</li>
-<li>
-<p><strong>Compliance and Trust</strong>: In regulated industries, explaining model predictions is often necessary for compliance. SHAP aids in providing these explanations, thereby fostering trust among users and stakeholders.</p>
-</li>
-<li>
-<p><strong>Data Science Insight</strong>: SHAP can reveal surprising patterns in the data that may not be immediately apparent, providing valuable insights to data scientists and domain experts.</p>
+<li><strong>Training Data</strong> is still used in a <strong>New Machine Learning Process</strong> to create an <strong>Explainable Model</strong>.</li>
+<li>Along with the model, an <strong>Explanation Interface</strong> is also developed.</li>
+<li>The <strong>User</strong> then interacts with the model and interface, leading to a situation where the user can:<ul>
+<li>Understand why the decision was made (I understand why).</li>
+<li>Understand the reasoning for not choosing an alternative (I understand why not).</li>
+<li>Know when the model is likely to succeed or fail.</li>
+<li>Know when to trust the model's decision.</li>
+<li>Understand the reasons behind any errors (I know why you erred).</li>
+</ul>
 </li>
 </ol>
-<h2 id="conclusion">Conclusion</h2>
-<p>SHAP stands out as a versatile and powerful tool for explaining machine learning models. Its ability to quantify the impact of each feature on a prediction makes it invaluable for improving model performance, ensuring fairness and bias mitigation, and complying with regulatory requirements. Its application is crucial for advancing the field of explainable AI, ensuring that machine learning models remain both powerful and interpretable.</p>
+<p>The XAI model is designed to be transparent and provide users with insights into the machine learning process. This is particularly important in fields where understanding the decision-making process is crucial, such as healthcare, autonomous vehicles, or any domain where trust and reliability are paramount.</p>
+<h2 id="using-a-knowledge-graph-as-the-explainable-model">Using a Knowledge Graph as the Explainable Model</h2>
+<p>Regarding the creation of the "Explainable Model" using a knowledge graph: Yes, it's a great idea! A knowledge graph can be leveraged to create an explainable model by linking data points with their relationships and properties in a graph structure. This graph can then be used to trace the decision-making path of the AI, showing how various inputs and their relationships contribute to a particular decision.</p>
+<h2 id="queryability">Queryability</h2>
+<p>A knowledge graph allows users to query the model and receive explanations in terms of the relationships and entities within the knowledge graph, which can be highly informative and interpretable. This approach is particularly useful for complex domains where numerous variables and their interconnections must be considered, like in financial risk assessment or personalized medicine.</p>
 
 
 
@@ -734,7 +708,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: Introduction" rel="prev">
+          <a href="../03-white-box-vs-black-box/" class="md-footer__link md-footer__link--prev" aria-label="Previous: White Box vs Black Box" rel="prev">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -744,20 +718,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Introduction
+                White Box vs Black Box
               </div>
             </div>
           </a>
         
         
           
-          <a href="../shap-conda-setup/" class="md-footer__link md-footer__link--next" aria-label="Next: SHAP Conda Setup" rel="next">
+          <a href="../../risk/" class="md-footer__link md-footer__link--next" aria-label="Next: Introduction" rel="next">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                SHAP Conda Setup
+                Introduction
               </div>
             </div>
             <div class="md-footer__button md-icon">

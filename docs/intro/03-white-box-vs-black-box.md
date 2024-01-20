@@ -1,6 +1,8 @@
 # Comparing White Box and Black Box Machine Learning Models
 
-##Introduction
+![](./03-white-box-vs-black-box.md)
+
+## Introduction
 
 In the ever-evolving world of machine learning (ML), understanding the nature and implications of different model architectures is crucial. This chapter delves into the comparison of white-box and black-box machine learning models, exploring their pros and cons, the tools used to build each, and the spectrum of explainability among various models.
 

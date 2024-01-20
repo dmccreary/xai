@@ -11,6 +11,7 @@ nav:
     - Introduction: intro/index.md
     - Clever Hans: intro/02-clever-hans.md
     - White Box vs Black Box: intro/03-white-box-vs-black-box.md
+    - The DARPA XAI Model: intro/04-darpa-reference-model.md
   - Levels of Risk:
     - Introduction: risk/index.md
     - FDA Risk Model: risk/fda-risk-model.md

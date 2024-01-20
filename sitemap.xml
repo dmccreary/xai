@@ -16,7 +16,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://dmccreary.github.io/GITHUB_REPO_NAME/how-i-built-this-site/</loc>
+         <lastmod>2024-01-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://dmccreary.github.io/GITHUB_REPO_NAME/license/</loc>
+         <lastmod>2024-01-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/GITHUB_REPO_NAME/references/</loc>
          <lastmod>2024-01-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -57,6 +67,11 @@
     </url>
     <url>
          <loc>https://dmccreary.github.io/GITHUB_REPO_NAME/intro/03-white-box-vs-black-box/</loc>
+         <lastmod>2024-01-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/GITHUB_REPO_NAME/regulatory/</loc>
          <lastmod>2024-01-20</lastmod>
          <changefreq>daily</changefreq>
     </url>

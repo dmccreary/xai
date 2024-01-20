@@ -353,6 +353,34 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#the-clever-hans-effect" class="md-nav__link">
+    The Clever Hans Effect
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wolves-and-dogs" class="md-nav__link">
+    Wolves and Dogs
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#clever-hans-in-medical-images" class="md-nav__link">
+    Clever Hans in Medical Images
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    References
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -606,6 +634,34 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#the-clever-hans-effect" class="md-nav__link">
+    The Clever Hans Effect
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wolves-and-dogs" class="md-nav__link">
+    Wolves and Dogs
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#clever-hans-in-medical-images" class="md-nav__link">
+    Clever Hans in Medical Images
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    References
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -642,6 +698,32 @@
 <p>In more technical terms, short-cut learning occurs when a machine learning model picks up on superficial, spurious, or irrelevant patterns in the training data that happen to correlate with the right answers. These patterns are not the underlying causal factors that a human expert would use to make a decision. As a result, while the model may perform well on the training data or even some testing scenarios, its understanding is shallow and may fail in real-world situations where the spurious patterns it learned do not apply.</p>
 <p>For example, imagine a medical AI trained to detect a certain disease from X-ray images. If most images of diseased lungs also coincidentally have a small marker or label on them that healthy lung images do not, the model might learn to identify the disease by looking for this marker instead of actual signs of the disease in the lung tissue. It gets the right answer (identifying the disease), but for the wrong reason (spotting the marker, not the disease characteristics).</p>
 <p>Short-cut learning is a significant challenge in AI because it can lead to models that are brittle, biased, or ineffective in real-world conditions, despite showing high accuracy in controlled or test environments. It underscores the importance of robust, diverse datasets and the need for explainability in AI models to ensure that they are learning and reasoning correctly.</p>
+<h2 id="the-clever-hans-effect">The Clever Hans Effect</h2>
+<p>The process of finding artifacts in data that were not
+intended to be used to make a prediction has become so
+common that it now has its own name: "The Clever Hans Effect".</p>
+<h2 id="wolves-and-dogs">Wolves and Dogs</h2>
+<p><img alt="" src="../../img/husky-vs-wolf.png" /></p>
+<p>In a study at the University of Washington, an image recognition system named <a href="https://rad.washington.edu/research/equipment/image-research-and-informatics-server-iris/">Iris</a> was used to
+classify images as containing Husky Dogs or Wolves. Iris was designed to identify and classify images with remarkable accuracy.</p>
+<p>One day, the developers decided to test Iris's ability to distinguish between pictures of wolves and dogs. They fed Iris thousands of images, and to their delight, Iris correctly identified the wolves and dogs with near-perfect accuracy. The developers were ecstatic, believing they had perfected the algorithm.</p>
+<p>However, there was something peculiar. They observed that in most of the wolf images, there was a common element: snow in the background. Intrigued, they decided to conduct an experiment. They fed Iris a set of new images, this time including pictures of dogs with snowy backgrounds.</p>
+<p>To the developers' surprise, Iris started misclassifying these dogs as wolves. It became clear that Iris wasn't actually recognizing the animals based on their species-specific characteristics. Instead, the system had learned to associate wolves with snowy backgrounds, a shortcut that worked well until challenged by the new set of images.</p>
+<p>This revelation was a moment of truth, reminiscent of the story of Clever Hans, the horse who had not actually learned arithmetic but was simply responding to subtle cues from his handler. Just like Hans, Iris wasn't as clever as it seemed; it was taking shortcuts based on unintended cues in the data.</p>
+<p>The developers realized that their image recognition system, although powerful, was not truly understanding the content of the images. It was merely finding patterns, some of which were misleading. This was a humbling lesson in the complexity of AI and the importance of diverse and comprehensive data sets in training algorithms.</p>
+<p>From that day on, the team approached their work with a new perspective, ensuring that Iris learned from a more varied and representative set of images, and they remained vigilant for any other "Clever Hans" effects that might skew their system's understanding of the world.</p>
+<p>And so, the tale of Iris and the Clever Hans effect became a cautionary story in the world of AI, reminding everyone that even the most advanced systems might be taking shortcuts and that continuous scrutiny and improvement are key to developing truly intelligent machines.</p>
+<h2 id="clever-hans-in-medical-images">Clever Hans in Medical Images</h2>
+<p><img alt="" src="../../img/clever-hans-in-xrays.png" /></p>
+<p>A recent study has shed light on a significant issue within the field of medical image analysis, particularly in the use of machine learning. The researchers targeted a commonly used brain tumor MRI dataset available to the public, uncovering an inherent bias. This bias, the study suggests, originates from the unintentional influence of radiologists in the selection process of 2D slices for the dataset. The team conducted multiple experiments, revealing that this bias could lead to high accuracy rates in tumor classification, even when the actual tumor data is not considered. This critical finding, which has been overlooked in other studies using the same dataset, underscores the importance of thoroughly understanding machine learning models and their application in medical contexts. The study highlights the potential risks and misinterpretations that can arise from not fully comprehending these advanced technologies.</p>
+<h2 id="references">References</h2>
+<ul>
+<li><a href="https://www.sciencedirect.com/science/article/pii/S1361841522000214">Clever Hans effect found in a widely used brain tumour MRI dataset</a></li>
+<li><a href="https://arxiv.org/pdf/1602.04938.pdf">“Why Should I Trust You?” Explaining the Predictions of Any Classifier</a></li>
+<li><a href="https://towardsdatascience.com/deep-learning-meet-clever-hans-3576144dc5a9">Deep Learning, Meet Clever Hans</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Clever_Hans">Clever Hans on Wikipedia</a></li>
+<li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3921203/">The “Clever Hans Phenomenon” revisited</a></li>
+</ul>
 
 
 

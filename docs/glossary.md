@@ -16,4 +16,8 @@ In our course, we define five levels of risk related to making a prediction and 
 
 ## LIME
 
+## Locked Algorithm
+
+An algorithm that provides the same result each time the same input is applied to it and does not change with use. Examples of locked algorithms are static look-up tables, decision trees, and complex classifiers.
+
 ## SHAP
